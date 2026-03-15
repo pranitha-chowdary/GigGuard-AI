@@ -69,12 +69,12 @@ Because we are a third-party startup, we do not have access to Zomato or Swiggy'
 
 ---
 
-## 💸 4. Dynamic Weekly Premium Structure & Triggers
+##  4. Dynamic Weekly Premium Structure & Triggers
 Gig workers operate on week-to-week cash flows, making annual policies unviable. Therefore, our financial model is structured on a **Weekly Pricing Basis**. 
 
 To keep the platform affordable while remaining profitable, our AI Risk Engine calculates the premium every Sunday based on hyper-local forecasts. 
 
-### 📊 The AI-Priced Premium Tiers
+###  The AI-Priced Premium Tiers
 Here is our dynamic pricing model for a standard food delivery partner based in a metro city:
 
 | Risk Level & Status | Predicted Conditions (Triggers) | Claim Probability | Weekly Premium |
