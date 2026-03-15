@@ -37,7 +37,16 @@ To demonstrate the economic necessity and viability of our platform, here is the
 ---
 ## ⚙️ 3. End-to-End Application Workflow
 
-<img src="workflow.png" alt="GigGuard Architecture & Workflow" width="20%">
+<table align="center">
+  <tr>
+    <td align="center"><b>GigGuard User Flow</b></td>
+    <td align="center"><b>System Architecture</b></td>
+  </tr>
+  <tr>
+    <td width="30%"><img src="workflow.png" alt="User Flow"></td>
+    <td width="30%"><img src="Architecture.png" alt="System Architecture"></td>
+  </tr>
+</table>
 
 To clearly illustrate how **GigGuard-AI** functions, we have broken down our workflow into two parts: our core real-world vision, and how we are simulating this ecosystem for the hackathon demonstration.
 
