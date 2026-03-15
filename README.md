@@ -37,7 +37,7 @@ To demonstrate the economic necessity and viability of our platform, here is the
 ---
 ## ⚙️ 3. End-to-End Application Workflow
 
-![GigGuard Architecture & Workflow](workflow.png)
+<img src="workflow.png" alt="GigGuard Architecture & Workflow" width="20%">
 
 To clearly illustrate how **GigGuard-AI** functions, we have broken down our workflow into two parts: our core real-world vision, and how we are simulating this ecosystem for the hackathon demonstration.
 
@@ -57,27 +57,6 @@ Because we are a third-party startup, we do not have access to Zomato or Swiggy'
 
 * **What it is:** A simulated environment that generates dummy data. It pretends to be a working delivery driver, outputting fake GPS coordinates and an "Online/Offline" status.
 * **How it proves our concept:** Our GigGuard app connects to this Mock Layer exactly as it would a real delivery platform. During our final demo, we will simulate a "Heavy Rain Alert." The judges will see GigGuard successfully read the mock GPS data, validate that the "simulated driver" was working in the rain, and successfully trigger the automated payout.
-
-##  3. End-to-End Application Workflow
-
-To clearly illustrate how **GigGuard-AI** functions, we have broken down our workflow into two parts: our core real-world vision, and how we are simulating this ecosystem for the hackathon demonstration.
-
-### Part A: The Core Idea (Real-World Operation)
-In a fully deployed real-world scenario, GigGuard operates as an invisible, automated safety net that integrates directly with the delivery partner's daily routine:
-
-1. **Account Linking:** The delivery partner downloads GigGuard and links it to their primary work platform (e.g., Zomato or Swiggy).
-2. **Weekly Activation:** The driver pays the AI-calculated micro-premium (e.g., ₹40) to activate coverage for the upcoming week.
-3. **Active Monitoring:** While the driver works, GigGuard runs quietly in the background. It monitors two things simultaneously: 
-    * The driver's live GPS location.
-    * External Data APIs (Weather and Local News/Gov alerts).
-4. **The Disruption Trigger:** An external event occurs—for example, a weather API reports severe waterlogging (>20mm rain) in the driver's current operating zone.
-5. **AI Validation & Payout:** GigGuard's AI instantly cross-references the weather alert with the driver's status. It confirms the driver was "Online" and stuck in the affected zone. A parametric claim is automatically approved, and the payout is sent instantly to the driver's UPI wallet without them ever making a phone call.
-
-### Part B: The Hackathon Demonstration (The Mock Layer)
-Because we are a third-party startup, we do not have access to Zomato or Swiggy's private internal databases or live rider GPS data. To prove our core idea works for the DEVTrails hackathon, we are building a **Mock Data Layer**.
-
-* **What it is:** Instead of a real delivery app, we are building a simulated environment (a simple script/interface) that generates dummy data. It pretends to be a working delivery driver, outputting fake GPS coordinates and an "Online/Offline" status.
-* **How it proves our concept:** Our GigGuard app will connect to this Mock Layer exactly as it would a real delivery platform. During our final demo, we will simulate a "Heavy Rain Alert." The judges will see GigGuard successfully read the mock GPS data, validate that the "simulated driver" was working in the rain, and successfully trigger the automated payout. 
 
 ---
 
