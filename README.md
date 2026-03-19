@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=31V0FUuuhiw">
-    <img src="https://drive.google.com/uc?export=view&id=13AhNGPx6KHK9-hQcu9efpJznBEvAzEhX" width="600">
+    <img src="https://drive.google.com/uc?export=view&id=1YjdBzP-IvrxDjsd15-YtSjw4O8Bp8tCl" width="600">
   </a>
 </p>
 
