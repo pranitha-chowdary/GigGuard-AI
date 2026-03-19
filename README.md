@@ -1,4 +1,4 @@
-# GigGuard-AI: The Safety Net for India's Gig Economy 
+# AASARA AI: The Safety Net for India's Gig Economy 
 
 ### 🎥 2-Minute Pitch & Prototype Demonstration
 
