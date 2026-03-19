@@ -2,7 +2,7 @@
 
 ### 🎥 2-Minute Pitch & Prototype Demonstration
 
-[![GigGuard Pitch Video](https://img.youtube.com/vi/31V0FUuuhiw/maxresdefault.jpg)](https://www.youtube.com/watch?v=31V0FUuuhiw)
+[![GigGuard Pitch Video](https://drive.google.com/uc?export=view&id=13AhNGPx6KHK9-hQcu9efpJznBEvAzEhX)](https://www.youtube.com/watch?v=31V0FUuuhiw)
 
 *(Click the image above to watch our full presentation)*
 
