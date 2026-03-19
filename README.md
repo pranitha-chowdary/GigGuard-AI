@@ -1,6 +1,6 @@
 # AASARA-AI: The Safety Net for India's Gig Economy 
-GigGuard-AI: The Safety Net for India's Gig Economy
-🎥 2-Minute Pitch & Prototype Demonstration
+
+# 🎥 2-Minute Pitch & Prototype Demonstration
 https://youtube.com/shorts/y7exHXDSmGQ?feature=share
 
 Our automated safety net uses predictive AI to turn unpredictable income losses from extreme weather and curfews into guaranteed, instant financial stability.
