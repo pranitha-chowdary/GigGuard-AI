@@ -168,5 +168,5 @@ Vision AI Resolution: This photo is processed via a lightweight Vision AI model 
 
 **Development Roadmap:**
 * **Phase 1 (Weeks 1-2):** Foundation. Finalize persona, define weekly pricing model, design architecture, and establish the GitHub repository.
-* **Phase 2 (Weeks 3-4):** Automation. Develop the Twin-App Simulator, implement the smart premium calculation engine, and integrate 3-5 parametric API triggers.
+* **Phase 2 (Weeks 3-4):** Automation. Develop the AASARA App Simulator, implement the smart premium calculation engine, and integrate 3-5 parametric API triggers.
 * **Phase 3 (Weeks 5-6):** Scale. Deploy the automated AI fraud detection models, finalize the simulated instant payout system, and build the analytics dashboard.
