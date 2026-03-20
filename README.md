@@ -13,7 +13,7 @@
 ##  1. The Problem Statement
 India's platform-based delivery partners are the driving force of the fast-paced digital economy. However, their livelihoods are incredibly vulnerable. External disruptions such as extreme weather conditions, pollution, and sudden social curfews cause these workers to lose 20-30% of their monthly earnings. 
 
-Currently, gig workers bear this full financial loss with zero safety net. **GigGuard-AI** is built to solve this.
+Currently, gig workers bear this full financial loss with zero safety net. **AASARA AI** is built to solve this.
 
 * **Our Scope:** We exclusively insure **Loss of Income** caused by external disruptions.
 * **Strict Exclusions:** We strictly exclude coverage for health, life, accidents, or vehicle repairs.
