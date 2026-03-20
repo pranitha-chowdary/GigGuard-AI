@@ -35,8 +35,8 @@ To demonstrate the economic necessity and viability of our platform, here is the
 | **Gross Weekly Potential** | ₹6,000 | ₹6,000 |
 | **Operational Expenses (Fuel/Data)** | - ₹1,400 | - ₹1,400 |
 | **Income Loss (2-Day Flood + Missed Bonus)** | - ₹2,100 | - ₹2,100 |
-| **GigGuard Weekly Premium** | ₹0 | **- ₹40** |
-| **GigGuard Parametric Payout** | ₹0 | **+ ₹1,800** |
+| **AASARA Weekly Premium** | ₹0 | **- ₹40** |
+| **AASARA Parametric Payout** | ₹0 | **+ ₹1,800** |
 | **Total Net Take-Home Pay** | **₹2,500** | **₹4,260** |
 | **Daily Average Income** | **₹357/day** | **₹608/day** |
 | **Status / Savings**| **₹0 (Financial Crisis)** | **₹1,760 (Stable & Secure)** |
@@ -48,7 +48,7 @@ To demonstrate the economic necessity and viability of our platform, here is the
 
 <table align="center">
   <tr>
-    <td align="center"><b>GigGuard User Flow</b></td>
+    <td align="center"><b>AASARA User Flow</b></td>
     <td align="center"><b>System Architecture</b></td>
   </tr>
   <tr>
@@ -60,26 +60,26 @@ To demonstrate the economic necessity and viability of our platform, here is the
 To clearly illustrate how **AASARA AI** functions, we have broken down our workflow into two parts: our core real-world vision, and how we are simulating this ecosystem for the hackathon demonstration.
 
 ### Part A: The Core Idea (Real-World Operation)
-In a fully deployed real-world scenario, GigGuard operates as an invisible, automated safety net that integrates directly with the delivery partner's daily routine:
+In a fully deployed real-world scenario, AASARA operates as an invisible, automated safety net that integrates directly with the delivery partner's daily routine:
 
-1. **Account Linking:** The delivery partner downloads GigGuard and links it to their primary work platform (e.g., Zomato or Swiggy).
+1. **Account Linking:** The delivery partner downloads AASARA AI and links it to their primary work platform (e.g., Zomato or Swiggy).
 2. **Weekly Activation:** The driver pays the AI-calculated micro-premium (e.g., ₹40) to activate coverage for the upcoming week.
-3. **Active Monitoring:** While the driver works, GigGuard runs quietly in the background. It monitors two things simultaneously: 
+3. **Active Monitoring:** While the driver works, AASARA runs quietly in the background. It monitors two things simultaneously: 
     * The driver's live GPS location.
     * External Data APIs (Weather and Local News/Gov alerts).
 4. **The Disruption Trigger:** An external event occurs—for example, a weather API reports severe waterlogging (>20mm rain) in the driver's current operating zone.
-5. **AI Validation & Payout:** GigGuard's AI instantly cross-references the weather alert with the driver's status. It confirms the driver was "Online" and stuck in the affected zone. A parametric claim is automatically approved, and the payout is sent instantly to the driver's UPI wallet.
+5. **AI Validation & Payout:** AASARA AI instantly cross-references the weather alert with the driver's status. It confirms the driver was "Online" and stuck in the affected zone. A parametric claim is automatically approved, and the payout is sent instantly to the driver's UPI wallet.
 
 ### Part B: The Hackathon Demonstration (The Mock Data Layer)
 Because we are a third-party startup, we do not have access to Zomato or Swiggy's private internal databases or live rider GPS data. To prove our core idea works for the DEVTrails hackathon, we built a **Mock Data Layer** purely for demonstration purposes.
 
 * **What it is:** A simulated environment that generates dummy data. It pretends to be a working delivery driver, outputting fake GPS coordinates and an "Online/Offline" status.
-* **How it proves our concept:** Our GigGuard app connects to this Mock Layer exactly as it would a real delivery platform. During our final demo, we will simulate a "Heavy Rain Alert." The judges will see GigGuard successfully read the mock GPS data, validate that the "simulated driver" was working in the rain, and successfully trigger the automated payout.
+* **How it proves our concept:** Our AASARA app connects to this Mock Layer exactly as it would a real delivery platform. During our final demo, we will simulate a "Heavy Rain Alert." The judges will see AASARA successfully read the mock GPS data, validate that the "simulated driver" was working in the rain, and successfully trigger the automated payout.
 
 ---
 
 ##  4. Dynamic Weekly Premium Structure & Triggers
-Gig workers operate on week-to-week cash flows, making annual policies unviable. Therefore, our financial model is structured on a **Weekly Pricing Basis**. 
+Gig workers operate on week-to-week cash flows, making annual policies unviable. Therefore, our financial model is strictly structured on a **Weekly Pricing Basis**. 
 
 To keep the platform affordable while remaining profitable, our AI Risk Engine calculates the premium every Sunday based on hyper-local forecasts. 
 
@@ -103,7 +103,7 @@ Payouts are instantly activated without human intervention when these thresholds
 ---
 
 ##  5. Deployment Strategy: Why Mobile?
-We are deploying GigGuard-AI as a **Cross-Platform Mobile Application** with the following technical justifications:
+We are deploying AASARA AI as a **Cross-Platform Mobile Application** with the following technical justifications:
 * **Background Telemetry:** Mobile native APIs provide the continuous background GPS tracking required to validate that a worker was actively working in a disrupted zone.
 * **Fraud Prevention:** Native device security (biometrics, secure enclaves) makes GPS spoofing significantly harder compared to web browsers.
 * **Zero-Touch UX:** Push notifications allow us to instantly alert drivers of impending weather risks and confirm automatic payouts without requiring them to open a browser window while on their bikes.
